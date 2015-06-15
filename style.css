@@ -36,7 +36,7 @@ table, th, td {
 
 /*This is where global options end and IDs begin*/
 #nav { /*This just sets the style for the bar. The Menu items are changed in the menu class*/
-	height: 600px;
+	height: 400px;
 	padding-left: 20px;
 	padding-right: 10px;
 	position: fixed;
