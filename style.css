@@ -1,0 +1,72 @@
+/*This is where all the global elements begin*/
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+body {
+	background-color: #35383a;
+	font-family: Verdana, Arial, Sans-serif;
+	color: #ffffff;
+}
+
+div {
+	background-color: #0066cc;
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+
+h2 {
+	margin-top: 5px;
+	column-span: all;
+	-webkit-column-span: all; /* Chrome, Safari, Opera */
+}
+
+h3 {
+	margin-top: 5px;
+	margin-left: 5px;
+	column-span: all;
+	-webkit-column-span: all; /* Chrome, Safari, Opera */
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+/*This is where global options end and IDs begin*/
+#nav { /*This just sets the style for the bar. The Menu items are changed in the menu class*/
+	height: 600px;
+	padding-left: 20px;
+	padding-right: 10px;
+	position: fixed;
+	top: 30px;
+	left: -10px;
+}
+
+#skills {
+	margin-left: 20%;
+	padding: 5px;
+	width: 60%;
+	-webkit-column-count: 2; /*Chrome, Safari, Opera*/
+	-moz-column-count: 2; /*Firefox*/
+	column-count: 2; /*Other browsers. Lol*/
+	-webkit-column-rule: 1px solid #35383a; /* Chrome, Safari, Opera */
+    -moz-column-rule: 1px solid #35383a; /* Firefox */
+    column-rule: 1px solid #35383a;
+}
+
+#xp {
+	margin-left: 20%;
+	padding: 5px;
+	width: 60%;
+}
+
+/*This is where IDs end and Classes begin.*/
+.menu {
+	list-style-type: none;
+	margin-left: -20px;
+	padding-top: -10px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
